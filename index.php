@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$conn = new mysqli("localhost", "ryan", "Leslyspurple3.0", "to");
+$conn = new mysqli("localhost", "root", "", "to");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
